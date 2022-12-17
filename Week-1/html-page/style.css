@@ -87,6 +87,10 @@ main > table > tbody > tr > td {
     width: 200px;
 }
 
+main > table > tbody > tr > td > button{
+    color: blue;
+}
+
 footer{
     position: fixed;
     bottom: 0;
