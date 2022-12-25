@@ -37,6 +37,20 @@ select{
     border-radius: 5px;
 }
 
+#submit{
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid rebeccapurple;
+}
+
+#submit:hover{
+    background-color: rebeccapurple;
+    color: white;
+    transition-duration: 0.2s;
+}
+
 
 @media (max-width: 600px) {
     .articles{
