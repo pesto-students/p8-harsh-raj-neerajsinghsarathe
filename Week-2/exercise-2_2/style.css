@@ -1,0 +1,91 @@
+.main{
+    position: relative;
+    width: 50%;
+    margin: 100px 0;
+    top: 20%;
+    left: 40%;
+}
+
+.square{
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: row;
+}
+
+#red{
+    position: relative;
+    background-color: red;
+    transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: top left;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+
+#yellow{
+    background-color: yellow;
+    left: 100px;
+    transform: translate(-100px,0);
+    transform-origin: top right;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+#blue{
+    background-color: blue;
+    top:130px;
+    transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: bottom left;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+#green{
+    background-color: green;
+    top:130px;
+    left: 100px;
+     transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: bottom right;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+
+.main:hover > .flex-column > #red{
+    transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: top left;
+    transform: rotate(90deg);
+    transition-duration: 1s;
+}
+
+.main:hover > .flex-column > #yellow{
+    transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: top right;
+    transform: rotate(-90deg);
+    transition-duration: 1s;
+}
+
+.main:hover > .flex-column > #blue{
+    transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    transition-duration: 1s;
+}
+
+.main:hover > .flex-column > #green{
+    transition: transform;
+    transform: translate(-100px,0);
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    transition-duration: 1s;
+}   
