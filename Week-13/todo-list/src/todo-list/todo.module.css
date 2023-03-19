@@ -1,0 +1,54 @@
+.inputComponent {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.btn {
+    position: relative;
+    background: white;
+    width: 100px;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px black;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.btn:active {
+    top: 2px;
+    box-shadow: none;
+}
+
+.addList {
+    line-height: 2;
+    height: 32px;
+    width: 500px;
+    background: white;
+    border: 30px #FF8C42;
+    border-radius: 5px;
+    font-size: large;
+    box-shadow: 1px 3px 5px black;
+    padding-left: 15px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.list {
+    padding: 10px;
+    font-size: large;
+}
+
+.list > label {
+    margin-left: 15px;
+}
+
+.list > input[type="checkbox"] {
+    outline: none;
+}
