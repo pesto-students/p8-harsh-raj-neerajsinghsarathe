@@ -7,12 +7,13 @@ const list = [{'id': 1, 'title': 'Go for a walk'}, {'id': 2, 'title': 'Go for a 
 export default function TodoList() {
     const [state, setState] = useState(list)
     const enteredFormData = useRef();
+
     function submitHandler(event) {
         event.preventDefault();
 
-        if (enteredFormData.current['newItem'].value !== ''){
+        if (enteredFormData.current['newItem'].value !== '') {
             const meetupData = {
-                'id' : state.length + 1,
+                'id': state.length + 1,
                 'title': enteredFormData.current['newItem'].value,
             }
             setState([...state, meetupData]);

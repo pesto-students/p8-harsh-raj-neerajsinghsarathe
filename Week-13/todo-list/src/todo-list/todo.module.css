@@ -15,11 +15,11 @@
     box-shadow: 1px 3px 5px black;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #f0f0f0;
 }
 
-.btn:active{
+.btn:active {
     top: 2px;
     box-shadow: none;
 }
@@ -35,7 +35,8 @@
     box-shadow: 1px 3px 5px black;
     padding-left: 15px;
 }
-input[type="text"]:focus{
+
+input[type="text"]:focus {
     outline: none;
 }
 
@@ -43,10 +44,11 @@ input[type="text"]:focus{
     padding: 10px;
     font-size: large;
 }
+
 .list > label {
     margin-left: 15px;
 }
 
-.list > input[type="checkbox"]{
+.list > input[type="checkbox"] {
     outline: none;
 }

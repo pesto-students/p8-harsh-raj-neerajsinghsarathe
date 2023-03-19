@@ -2,10 +2,10 @@ import {useRef, useState} from "react";
 import todo from "./todo.module.css";
 
 const completed = {
-    marginLeft : '5px',
+    marginLeft: '5px',
     padding: '3px 10px',
-    backgroundColor : 'green',
-    fontSize : '0.8rem',
+    backgroundColor: 'green',
+    fontSize: '0.8rem',
     borderRadius: '5px',
     color: 'white'
 
